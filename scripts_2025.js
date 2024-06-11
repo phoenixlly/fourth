@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dissipated: '2025-01-09',
             maxWinds: '59 mph',
             areasAffected: 'Colorful; Mashiro Islands',
-            image: 'path_to_goni_image.jpg'
+            image: '20240611_104101.png'
         },
         {
             name: 'Haishen',
