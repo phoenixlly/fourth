@@ -2,19 +2,19 @@ body {
     font-family: 'Times New Roman', Times, serif !important;
     margin: 0;
     padding: 0;
-    background-color: #ffffcc; /* Use a light yellow background */
+    background-color: #ffffcc; /* Light yellow background */
     color: #333;
 }
 
 header {
-    background-color: #ffcc00; /* Change the background color to a darker shade of yellow */
-    color: black; /* Change the font color to black */
+    background-color: #ffcc00; /* Darker yellow for header background */
+    color: black; /* Black font color for header */
     padding: 1rem;
     text-align: center;
 }
 
 nav {
-    background-color: #cc9900; /* Change the background color of the navigation to a darker shade of yellow */
+    background-color: #cc9900; /* Darker yellow for navigation background */
     overflow: hidden;
 }
 
@@ -30,52 +30,16 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: black; /* Black font color for navigation links */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #996600; /* Change the hover background color to a darker shade of yellow */
-}
-
-main {
-    padding: 1rem;
+    background-color: #996600; /* Darker yellow for hover background */
 }
 
 h2 {
-    color: #4CAF50; /* Change the color of h2 headings to green */
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 0.5rem;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-.content-section {
-    display: none;
-}
-
-#introduction-content {
-    display: block;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    color: #4CAF50; /* Green font color for h2 headings */
 }
