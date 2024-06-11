@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cycloneData2025 = [
         {
-            name: 'Goni',
-            formed: '2025-04-10',
-            dissipated: '2025-04-18',
-            maxWinds: '250 km/h',
-            areasAffected: 'Southern Regions',
+            name: 'Carter',
+            formed: '2025-01-07',
+            dissipated: '2025-01-09',
+            maxWinds: '59 mph',
+            areasAffected: 'Colorful; Mashiro Islands',
             image: 'path_to_goni_image.jpg'
         },
         {
