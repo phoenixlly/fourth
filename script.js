@@ -1,34 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const cycloneData = [
+    const cycloneData2027 = [
         {
             name: 'Aere',
-            formed: '2027-06-05',
-            dissipated: '2027-06-10',
-            maxWinds: '150 km/h',
+            formed: '2027-05-15',
+            dissipated: '2027-05-25',
+            maxWinds: '260 km/h',
             areasAffected: 'Coastal Areas',
             image: 'path_to_aere_image.jpg'
         },
         {
             name: 'Mindulle',
-            formed: '2027-08-15',
-            dissipated: '2027-08-23',
-            maxWinds: '180 km/h',
-            areasAffected: 'Inland and Coastal Areas',
+            formed: '2027-07-10',
+            dissipated: '2027-07-20',
+            maxWinds: '240 km/h',
+            areasAffected: 'Northern Regions',
             image: 'path_to_mindulle_image.jpg'
         },
         {
             name: 'Chanthu',
             formed: '2027-09-01',
-            dissipated: '2027-09-07',
-            maxWinds: '220 km/h',
-            areasAffected: 'Northern Regions',
+            dissipated: '2027-09-10',
+            maxWinds: '270 km/h',
+            areasAffected: 'Central and Southern Areas',
             image: 'path_to_chanthu_image.jpg'
         }
     ];
 
-    const tableBody = document.getElementById('cyclone-table-body');
+    const tableBody2027 = document.getElementById('cyclone-table-body');
 
-    cycloneData.forEach(cyclone => {
+    cycloneData2027.forEach(cyclone => {
         const row = document.createElement('tr');
 
         Object.values(cyclone).forEach((value, index) => {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             row.appendChild(cell);
         });
 
-        tableBody.appendChild(row);
+        tableBody2027.appendChild(row);
     });
 });
 
