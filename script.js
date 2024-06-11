@@ -1,34 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const cycloneData2025 = [
+    const cycloneData2027 = [
         {
-            name: 'Goni',
-            formed: '2025-04-10',
-            dissipated: '2025-04-18',
-            maxWinds: '250 km/h',
-            areasAffected: 'Southern Regions',
-            image: 'path_to_goni_image.jpg'
+            name: 'Aere',
+            formed: '2027-05-15',
+            dissipated: '2027-05-25',
+            maxWinds: '260 km/h',
+            areasAffected: 'Coastal Areas',
+            image: 'path_to_aere_image.jpg'
         },
         {
-            name: 'Haishen',
-            formed: '2025-06-20',
-            dissipated: '2025-06-30',
-            maxWinds: '230 km/h',
-            areasAffected: 'Central and Northern Areas',
-            image: 'path_to_haishen_image.jpg'
+            name: 'Mindulle',
+            formed: '2027-07-10',
+            dissipated: '2027-07-20',
+            maxWinds: '240 km/h',
+            areasAffected: 'Northern Regions',
+            image: 'path_to_mindulle_image.jpg'
         },
         {
-            name: 'Molave',
-            formed: '2025-08-01',
-            dissipated: '2025-08-07',
-            maxWinds: '210 km/h',
-            areasAffected: 'Eastern Regions',
-            image: 'path_to_molave_image.jpg'
+            name: 'Chanthu',
+            formed: '2027-09-01',
+            dissipated: '2027-09-10',
+            maxWinds: '270 km/h',
+            areasAffected: 'Central and Southern Areas',
+            image: 'path_to_chanthu_image.jpg'
         }
     ];
 
-    const tableBody2025 = document.getElementById('cyclone-table-body-2025');
+    const tableBody2027 = document.getElementById('cyclone-table-body');
 
-    cycloneData2025.forEach(cyclone => {
+    cycloneData2027.forEach(cyclone => {
         const row = document.createElement('tr');
 
         Object.values(cyclone).forEach((value, index) => {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             row.appendChild(cell);
         });
 
-        tableBody2025.appendChild(row);
+        tableBody2027.appendChild(row);
     });
 });
 
