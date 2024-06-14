@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dissipated: '2027-05-25',
             maxWinds: '260 km/h',
             areasAffected: 'Coastal Areas',
-            image: 'path_to_aere_image.jpg'
+            image: 'https://raw.githubusercontent.com/phoenixlly/fourth/main/20240611_104101.png'
         },
         {
             name: 'Mindulle',
